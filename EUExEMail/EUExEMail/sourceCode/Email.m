@@ -75,11 +75,11 @@
 	//	[picker setCcRecipients:ccRecipients];
 	//	[picker setBccRecipients:bccRecipients];
     
-    NSString *attachPath = [EUtility getAbsPath:euexObj.meBrwView path:[dict objectForKey:@"attachment"]];
+    NSString *attachPath =[dict objectForKey:@"attachment"];
     if ([attachPath isKindOfClass:[NSString class]] && attachPath.length>0) {
         NSArray *attachPath_ary = [attachPath componentsSeparatedByString:@","];
         for (int i=0; i<[attachPath_ary count]; i++) {
-            NSString *str = [attachPath_ary objectAtIndex:i];
+            NSString *str = [euexObj absPath:[attachPath_ary objectAtIndex:i]];
             if ([[NSFileManager defaultManager] fileExistsAtPath:str]) {
                 NSData *myData = [NSData dataWithContentsOfFile:str];
                 if (myData && [myData length]>0) {
