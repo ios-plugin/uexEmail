@@ -57,7 +57,7 @@
 -(void)displayComposerSheet
 {
 	picker = [[MFMailComposeViewController alloc] init];
-	picker.title=@"新建邮件";
+	picker.title=UEX_LOCALIZEDSTRING(@"新建邮件");
 	picker.mailComposeDelegate = self;
 	NSString *subjectStr = [[dict objectForKey:@"subject"] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 	if (subjectStr&&[subjectStr length]>0) {

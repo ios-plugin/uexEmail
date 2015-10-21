@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1AD5801BD5F2240091D2A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1AD5821BD5F2240091D2A1 /* Localizable.strings */; };
 		5A500F96188FB34B0022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A500F95188FB34B0022E07C /* Foundation.framework */; };
 		5A500F9D188FB34B0022E07C /* EUExEMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500F9C188FB34B0022E07C /* EUExEMail.m */; };
 		5A500FC2188FB3EB0022E07C /* Email.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500FC1188FB3EB0022E07C /* Email.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1AD57C1BD5F20D0091D2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A500F8A188FB34B0022E07C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1AD5751BD5F1B40091D2A1;
+			remoteInfo = uexEmailBundle;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5A500F90188FB34B0022E07C /* CopyFiles */ = {
@@ -25,6 +36,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexEmail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1AD5781BD5F1B40091D2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1AD5811BD5F2240091D2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C1AD5831BD5F22E0091D2A1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5A500F92188FB34B0022E07C /* libuexEmail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexEmail.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A500F95188FB34B0022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A500F99188FB34B0022E07C /* EUExEMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExEMail-Prefix.pch"; sourceTree = "<group>"; };
@@ -40,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3C1AD5731BD5F1B40091D2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A500F8F188FB34B0022E07C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,10 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1AD5771BD5F1B40091D2A1 /* uexEmailBundle */ = {
+			isa = PBXGroup;
+			children = (
+				3C1AD5781BD5F1B40091D2A1 /* Info.plist */,
+			);
+			path = uexEmailBundle;
+			sourceTree = "<group>";
+		};
 		5A500F89188FB34B0022E07C = {
 			isa = PBXGroup;
 			children = (
+				3C1AD5821BD5F2240091D2A1 /* Localizable.strings */,
 				5A500F97188FB34B0022E07C /* EUExEMail */,
+				3C1AD5771BD5F1B40091D2A1 /* uexEmailBundle */,
 				5A500F94188FB34B0022E07C /* Frameworks */,
 				5A500F93188FB34B0022E07C /* Products */,
 			);
@@ -64,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				5A500F92188FB34B0022E07C /* libuexEmail.a */,
+				3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +153,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3C1AD5751BD5F1B40091D2A1 /* uexEmailBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1AD57B1BD5F1B40091D2A1 /* Build configuration list for PBXNativeTarget "uexEmailBundle" */;
+			buildPhases = (
+				3C1AD5721BD5F1B40091D2A1 /* Sources */,
+				3C1AD5731BD5F1B40091D2A1 /* Frameworks */,
+				3C1AD5741BD5F1B40091D2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uexEmailBundle;
+			productName = uexEmailBundle;
+			productReference = 3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		5A500F91188FB34B0022E07C /* EUExEMail */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A500FB5188FB34B0022E07C /* Build configuration list for PBXNativeTarget "EUExEMail" */;
@@ -131,6 +181,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3C1AD57D1BD5F20D0091D2A1 /* PBXTargetDependency */,
 			);
 			name = EUExEMail;
 			productName = EUExEMail;
@@ -145,6 +196,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = xll;
+				TargetAttributes = {
+					3C1AD5751BD5F1B40091D2A1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
 			};
 			buildConfigurationList = 5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEMail" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -152,6 +208,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 5A500F89188FB34B0022E07C;
 			productRefGroup = 5A500F93188FB34B0022E07C /* Products */;
@@ -159,11 +216,30 @@
 			projectRoot = "";
 			targets = (
 				5A500F91188FB34B0022E07C /* EUExEMail */,
+				3C1AD5751BD5F1B40091D2A1 /* uexEmailBundle */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3C1AD5741BD5F1B40091D2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1AD5801BD5F2240091D2A1 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		3C1AD5721BD5F1B40091D2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A500F8E188FB34B0022E07C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,7 +251,78 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3C1AD57D1BD5F20D0091D2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1AD5751BD5F1B40091D2A1 /* uexEmailBundle */;
+			targetProxy = 3C1AD57C1BD5F20D0091D2A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C1AD5821BD5F2240091D2A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1AD5811BD5F2240091D2A1 /* en */,
+				3C1AD5831BD5F22E0091D2A1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		3C1AD5791BD5F1B40091D2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexEmail;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = uexEmailBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexEmailBundle;
+				PRODUCT_MODULE_NAME = uexEmail;
+				PRODUCT_NAME = uexEmail;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3C1AD57A1BD5F1B40091D2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexEmail;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = uexEmailBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexEmailBundle;
+				PRODUCT_MODULE_NAME = uexEmail;
+				PRODUCT_NAME = uexEmail;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5A500FB3188FB34B0022E07C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -278,6 +425,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C1AD57B1BD5F1B40091D2A1 /* Build configuration list for PBXNativeTarget "uexEmailBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1AD5791BD5F1B40091D2A1 /* Debug */,
+				3C1AD57A1BD5F1B40091D2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEMail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

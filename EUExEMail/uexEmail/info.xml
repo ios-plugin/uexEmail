@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <uexplugins>
     <plugin
-        uexName="uexEmail" version="3.0.3" build="3">
-        <info>3:修复设置多个附件时,不能正确读取协议路径文件的bug</info>
+        uexName="uexEmail" version="3.0.4" build="4">
+        <info>4:添加国际化支持</info>
+        <build>3:修复设置多个附件时,不能正确读取协议路径文件的bug</build>
         <build>2:逻辑与文档保持一致</build>
         <build>1:使用新版Xcode重新编译,支持arm64</build>
         <build>0:邮件功能插件</build>
