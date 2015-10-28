@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C1AD5801BD5F2240091D2A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1AD5821BD5F2240091D2A1 /* Localizable.strings */; };
+		3C1C09B21BE0612C00571E72 /* Localizations.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C09B41BE0612C00571E72 /* Localizations.strings */; };
 		5A500F96188FB34B0022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A500F95188FB34B0022E07C /* Foundation.framework */; };
 		5A500F9D188FB34B0022E07C /* EUExEMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500F9C188FB34B0022E07C /* EUExEMail.m */; };
 		5A500FC2188FB3EB0022E07C /* Email.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500FC1188FB3EB0022E07C /* Email.m */; };
@@ -37,9 +37,8 @@
 
 /* Begin PBXFileReference section */
 		3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexEmail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C1AD5781BD5F1B40091D2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C1AD5811BD5F2240091D2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3C1AD5831BD5F22E0091D2A1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3C1C09B31BE0612C00571E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizations.strings; sourceTree = "<group>"; };
+		3C1C09B51BE0612D00571E72 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizations.strings"; sourceTree = "<group>"; };
 		5A500F92188FB34B0022E07C /* libuexEmail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexEmail.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A500F95188FB34B0022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A500F99188FB34B0022E07C /* EUExEMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExEMail-Prefix.pch"; sourceTree = "<group>"; };
@@ -76,7 +75,7 @@
 		3C1AD5771BD5F1B40091D2A1 /* uexEmailBundle */ = {
 			isa = PBXGroup;
 			children = (
-				3C1AD5781BD5F1B40091D2A1 /* Info.plist */,
+				3C1C09B41BE0612C00571E72 /* Localizations.strings */,
 			);
 			path = uexEmailBundle;
 			sourceTree = "<group>";
@@ -84,7 +83,6 @@
 		5A500F89188FB34B0022E07C = {
 			isa = PBXGroup;
 			children = (
-				3C1AD5821BD5F2240091D2A1 /* Localizable.strings */,
 				5A500F97188FB34B0022E07C /* EUExEMail */,
 				3C1AD5771BD5F1B40091D2A1 /* uexEmailBundle */,
 				5A500F94188FB34B0022E07C /* Frameworks */,
@@ -226,7 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1AD5801BD5F2240091D2A1 /* Localizable.strings in Resources */,
+				3C1C09B21BE0612C00571E72 /* Localizations.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +258,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3C1AD5821BD5F2240091D2A1 /* Localizable.strings */ = {
+		3C1C09B41BE0612C00571E72 /* Localizations.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C1AD5811BD5F2240091D2A1 /* en */,
-				3C1AD5831BD5F22E0091D2A1 /* zh-Hans */,
+				3C1C09B31BE0612C00571E72 /* en */,
+				3C1C09B51BE0612D00571E72 /* zh-Hans */,
 			);
-			name = Localizable.strings;
+			name = Localizations.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,7 +282,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = uexEmailBundle/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -310,7 +308,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = uexEmailBundle/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -432,6 +430,7 @@
 				3C1AD57A1BD5F1B40091D2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEMail" */ = {
 			isa = XCConfigurationList;
