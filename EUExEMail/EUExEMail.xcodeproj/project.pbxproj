@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C1C09B21BE0612C00571E72 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C09B41BE0612C00571E72 /* Localizable.strings */; };
 		5A500F96188FB34B0022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A500F95188FB34B0022E07C /* Foundation.framework */; };
-		5A500F9D188FB34B0022E07C /* EUExEMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500F9C188FB34B0022E07C /* EUExEMail.m */; };
+		5A500F9D188FB34B0022E07C /* EUExEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500F9C188FB34B0022E07C /* EUExEmail.m */; };
 		5A500FC2188FB3EB0022E07C /* Email.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500FC1188FB3EB0022E07C /* Email.m */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +41,8 @@
 		3C1C09B51BE0612D00571E72 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5A500F92188FB34B0022E07C /* libuexEmail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexEmail.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A500F95188FB34B0022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5A500F99188FB34B0022E07C /* EUExEMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExEMail-Prefix.pch"; sourceTree = "<group>"; };
-		5A500F9C188FB34B0022E07C /* EUExEMail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExEMail.m; sourceTree = "<group>"; };
+		5A500F99188FB34B0022E07C /* EUExEmail.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExEmail.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		5A500F9C188FB34B0022E07C /* EUExEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExEmail.m; sourceTree = "<group>"; };
 		5A500FA3188FB34B0022E07C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5A500FA6188FB34B0022E07C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5A500FBC188FB3EB0022E07C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		5A500FBE188FB3EB0022E07C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		5A500FC0188FB3EB0022E07C /* Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Email.h; sourceTree = "<group>"; };
 		5A500FC1188FB3EB0022E07C /* Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Email.m; sourceTree = "<group>"; };
-		A0EB589B18AB61F700F133BB /* EUExEMail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExEMail.h; sourceTree = "<group>"; };
+		A0EB589B18AB61F700F133BB /* EUExEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExEmail.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		5A500F89188FB34B0022E07C = {
 			isa = PBXGroup;
 			children = (
-				5A500F97188FB34B0022E07C /* EUExEMail */,
+				5A500F97188FB34B0022E07C /* EUExEmail */,
 				3C1AD5771BD5F1B40091D2A1 /* uexEmailBundle */,
 				5A500F94188FB34B0022E07C /* Frameworks */,
 				5A500F93188FB34B0022E07C /* Products */,
@@ -109,22 +109,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5A500F97188FB34B0022E07C /* EUExEMail */ = {
+		5A500F97188FB34B0022E07C /* EUExEmail */ = {
 			isa = PBXGroup;
 			children = (
-				A0EB589B18AB61F700F133BB /* EUExEMail.h */,
+				A0EB589B18AB61F700F133BB /* EUExEmail.h */,
 				5A500FBB188FB3EB0022E07C /* engineHeader */,
 				5A500FBF188FB3EB0022E07C /* sourceCode */,
-				5A500F9C188FB34B0022E07C /* EUExEMail.m */,
+				5A500F9C188FB34B0022E07C /* EUExEmail.m */,
 				5A500F98188FB34B0022E07C /* Supporting Files */,
 			);
+			name = EUExEmail;
 			path = EUExEMail;
 			sourceTree = "<group>";
 		};
 		5A500F98188FB34B0022E07C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A500F99188FB34B0022E07C /* EUExEMail-Prefix.pch */,
+				5A500F99188FB34B0022E07C /* EUExEmail.temp_caseinsensitive_rename-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,9 +169,9 @@
 			productReference = 3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		5A500F91188FB34B0022E07C /* EUExEMail */ = {
+		5A500F91188FB34B0022E07C /* EUExEmail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A500FB5188FB34B0022E07C /* Build configuration list for PBXNativeTarget "EUExEMail" */;
+			buildConfigurationList = 5A500FB5188FB34B0022E07C /* Build configuration list for PBXNativeTarget "EUExEmail" */;
 			buildPhases = (
 				5A500F8E188FB34B0022E07C /* Sources */,
 				5A500F8F188FB34B0022E07C /* Frameworks */,
@@ -181,7 +182,7 @@
 			dependencies = (
 				3C1AD57D1BD5F20D0091D2A1 /* PBXTargetDependency */,
 			);
-			name = EUExEMail;
+			name = EUExEmail;
 			productName = EUExEMail;
 			productReference = 5A500F92188FB34B0022E07C /* libuexEmail.a */;
 			productType = "com.apple.product-type.library.static";
@@ -192,7 +193,7 @@
 		5A500F8A188FB34B0022E07C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xll;
 				TargetAttributes = {
 					3C1AD5751BD5F1B40091D2A1 = {
@@ -200,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEMail" */;
+			buildConfigurationList = 5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEmail" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,7 +214,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A500F91188FB34B0022E07C /* EUExEMail */,
+				5A500F91188FB34B0022E07C /* EUExEmail */,
 				3C1AD5751BD5F1B40091D2A1 /* uexEmailBundle */,
 			);
 		};
@@ -243,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A500FC2188FB3EB0022E07C /* Email.m in Sources */,
-				5A500F9D188FB34B0022E07C /* EUExEMail.m in Sources */,
+				5A500F9D188FB34B0022E07C /* EUExEmail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +400,7 @@
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexEMail/";
 				DSTROOT = /tmp/EUExEMail.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EUExEMail/EUExEMail-Prefix.pch";
+				GCC_PREFIX_HEADER = "EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = uexEmail;
 				SKIP_INSTALL = YES;
@@ -413,7 +414,7 @@
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexEMail/";
 				DSTROOT = /tmp/EUExEMail.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EUExEMail/EUExEMail-Prefix.pch";
+				GCC_PREFIX_HEADER = "EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = uexEmail;
 				SKIP_INSTALL = YES;
@@ -432,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEMail" */ = {
+		5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEmail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A500FB3188FB34B0022E07C /* Debug */,
@@ -441,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A500FB5188FB34B0022E07C /* Build configuration list for PBXNativeTarget "EUExEMail" */ = {
+		5A500FB5188FB34B0022E07C /* Build configuration list for PBXNativeTarget "EUExEmail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A500FB6188FB34B0022E07C /* Debug */,
