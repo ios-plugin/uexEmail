@@ -1,1413 +1,591 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0E7EEE205815884FCD87BCC0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64AAB7AB05B682DA81FDFEEE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>132014F994DD42A781814863</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>728545797CCC0BAF64316C80</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>198FACDD7C833557859003AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8321B3A82DCFAB38845C43EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1B5402AF18340CE6CD85382F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MobileCoreServices.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MobileCoreServices.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>250FAA17EE83869F9366C697</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>2D27A16C6D98B640C2670ADD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>71EE64811CDD9141464D6799</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B96E90B0484F38F75D5728D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>250FAA17EE83869F9366C697</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C1AD5721BD5F1B40091D2A1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3C1AD5731BD5F1B40091D2A1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3C1AD5741BD5F1B40091D2A1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3C1C09B21BE0612C00571E72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3C1AD5751BD5F1B40091D2A1</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3C1AD57B1BD5F1B40091D2A1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3C1AD5721BD5F1B40091D2A1</string>
-				<string>3C1AD5731BD5F1B40091D2A1</string>
-				<string>3C1AD5741BD5F1B40091D2A1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>uexEmailBundle</string>
-			<key>productName</key>
-			<string>uexEmailBundle</string>
-			<key>productReference</key>
-			<string>3C1AD5761BD5F1B40091D2A1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>3C1AD5761BD5F1B40091D2A1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>uexEmail.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3C1AD5771BD5F1B40091D2A1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C1C09B41BE0612C00571E72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>uexEmailBundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C1AD5791BD5F1B40091D2A1</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$SRCROOT/uexEmail</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string></string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Bundles</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.zywx.uexEmailBundle</string>
-				<key>PRODUCT_MODULE_NAME</key>
-				<string>uexEmail</string>
-				<key>PRODUCT_NAME</key>
-				<string>uexEmail</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3C1AD57A1BD5F1B40091D2A1</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$SRCROOT/uexEmail</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string></string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Bundles</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.zywx.uexEmailBundle</string>
-				<key>PRODUCT_MODULE_NAME</key>
-				<string>uexEmail</string>
-				<key>PRODUCT_NAME</key>
-				<string>uexEmail</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3C1AD57B1BD5F1B40091D2A1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3C1AD5791BD5F1B40091D2A1</string>
-				<string>3C1AD57A1BD5F1B40091D2A1</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3C1AD57C1BD5F20D0091D2A1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>5A500F8A188FB34B0022E07C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3C1AD5751BD5F1B40091D2A1</string>
-			<key>remoteInfo</key>
-			<string>uexEmailBundle</string>
-		</dict>
-		<key>3C1AD57D1BD5F20D0091D2A1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3C1AD5751BD5F1B40091D2A1</string>
-			<key>targetProxy</key>
-			<string>3C1AD57C1BD5F20D0091D2A1</string>
-		</dict>
-		<key>3C1C09B21BE0612C00571E72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C1C09B41BE0612C00571E72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C1C09B31BE0612C00571E72</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/Localizable.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C1C09B41BE0612C00571E72</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C1C09B31BE0612C00571E72</string>
-				<string>3C1C09B51BE0612D00571E72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Localizable.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C1C09B51BE0612D00571E72</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>zh-Hans</string>
-			<key>path</key>
-			<string>zh-Hans.lproj/Localizable.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47ABF585B26C08B7DD3D3814</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F02E288DCB42EAAD1258057B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52DFC3371BB1EB36CB125FF1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EC251BDD867C6661C0D64562</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A500F89188FB34B0022E07C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A500F97188FB34B0022E07C</string>
-				<string>3C1AD5771BD5F1B40091D2A1</string>
-				<string>5A500F94188FB34B0022E07C</string>
-				<string>5A500F93188FB34B0022E07C</string>
-				<string>6A0EDABF25B313C0862FFC05</string>
-				<string>E3B032673A787399C73A4170</string>
-				<string>64AAB7AB05B682DA81FDFEEE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500F8A188FB34B0022E07C</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0720</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>xll</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>3C1AD5751BD5F1B40091D2A1</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.0.1</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>5A500F8D188FB34B0022E07C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>zh-Hans</string>
-			</array>
-			<key>mainGroup</key>
-			<string>5A500F89188FB34B0022E07C</string>
-			<key>productRefGroup</key>
-			<string>5A500F93188FB34B0022E07C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>5A500F91188FB34B0022E07C</string>
-				<string>3C1AD5751BD5F1B40091D2A1</string>
-			</array>
-		</dict>
-		<key>5A500F8D188FB34B0022E07C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5A500FB3188FB34B0022E07C</string>
-				<string>5A500FB4188FB34B0022E07C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5A500F8E188FB34B0022E07C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5A500FC2188FB3EB0022E07C</string>
-				<string>5A500F9D188FB34B0022E07C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5A500F8F188FB34B0022E07C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5A500F96188FB34B0022E07C</string>
-				<string>E2C9CFDF2293ED51C4CA7CCC</string>
-				<string>EF690647E625D4597E1B3959</string>
-				<string>D6C8DFE215CF3BE7B3ECB9CF</string>
-				<string>52DFC3371BB1EB36CB125FF1</string>
-				<string>D6F13A278859DBC254F48F9E</string>
-				<string>FA1323B3D30F59EE5DC1A8FE</string>
-				<string>3B96E90B0484F38F75D5728D</string>
-				<string>47ABF585B26C08B7DD3D3814</string>
-				<string>D40BE0162F7F5598FA712EE4</string>
-				<string>D8107AE2C8F641624E959A3A</string>
-				<string>198FACDD7C833557859003AB</string>
-				<string>2D27A16C6D98B640C2670ADD</string>
-				<string>BA43C6493D63637B84C9C898</string>
-				<string>C0D578E69D2E461425A70160</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5A500F90188FB34B0022E07C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string>include/$(PRODUCT_NAME)</string>
-			<key>dstSubfolderSpec</key>
-			<string>16</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5A500F91188FB34B0022E07C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5A500FB5188FB34B0022E07C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5A500F8E188FB34B0022E07C</string>
-				<string>5A500F8F188FB34B0022E07C</string>
-				<string>5A500F90188FB34B0022E07C</string>
-				<string>132014F994DD42A781814863</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3C1AD57D1BD5F20D0091D2A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>EUExEmail</string>
-			<key>productName</key>
-			<string>EUExEMail</string>
-			<key>productReference</key>
-			<string>5A500F92188FB34B0022E07C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>5A500F92188FB34B0022E07C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>uexEmail.framework</string>
-			<key>path</key>
-			<string>uexEmail.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5A500F93188FB34B0022E07C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A500F92188FB34B0022E07C</string>
-				<string>3C1AD5761BD5F1B40091D2A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500F94188FB34B0022E07C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A500F95188FB34B0022E07C</string>
-				<string>5A500FA3188FB34B0022E07C</string>
-				<string>5A500FA6188FB34B0022E07C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500F95188FB34B0022E07C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>5A500F96188FB34B0022E07C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A500F95188FB34B0022E07C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A500F97188FB34B0022E07C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A0EB589B18AB61F700F133BB</string>
-				<string>5A500FBB188FB3EB0022E07C</string>
-				<string>5A500FBF188FB3EB0022E07C</string>
-				<string>5A500F9C188FB34B0022E07C</string>
-				<string>5A500F98188FB34B0022E07C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>EUExEmail</string>
-			<key>path</key>
-			<string>EUExEMail</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500F98188FB34B0022E07C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A500F99188FB34B0022E07C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500F99188FB34B0022E07C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>EUExEmail.temp_caseinsensitive_rename-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500F9C188FB34B0022E07C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>EUExEmail.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500F9D188FB34B0022E07C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A500F9C188FB34B0022E07C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A500FA3188FB34B0022E07C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>5A500FA6188FB34B0022E07C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>5A500FB3188FB34B0022E07C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5A500FB4188FB34B0022E07C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5A500FB5188FB34B0022E07C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5A500FB6188FB34B0022E07C</string>
-				<string>5A500FB7188FB34B0022E07C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5A500FB6188FB34B0022E07C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>BUNDLE_IDENTIFIER</key>
-				<string>com.appcan.ide</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Distribution: Hangzhou Sea King Biological Technology Co., Ltd.</string>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$(SRCROOT)/uexEmail/IDE/</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/EUExEMail.dst</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_BITCODE</key>
-				<string>NO</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(PROJECT_DIR)</string>
-					<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<array>
-					<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@executable_path</string>
-					<string>@loader_path/Frameworks</string>
-					<string>@loader_path</string>
-				</array>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>uexEmail</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string>756a3ff2-be53-4d08-862a-c050d0dfa3d9</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5A500FB7188FB34B0022E07C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>BUNDLE_IDENTIFIER</key>
-				<string>com.appcan.ide</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Distribution: Hangzhou Sea King Biological Technology Co., Ltd.</string>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$(SRCROOT)/uexEmail/IDE/</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/EUExEMail.dst</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_BITCODE</key>
-				<string>NO</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(PROJECT_DIR)</string>
-					<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<array>
-					<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@executable_path</string>
-					<string>@loader_path/Frameworks</string>
-					<string>@loader_path</string>
-				</array>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>uexEmail</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string>756a3ff2-be53-4d08-862a-c050d0dfa3d9</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5A500FBB188FB3EB0022E07C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A500FBC188FB3EB0022E07C</string>
-				<string>5A500FBD188FB3EB0022E07C</string>
-				<string>5A500FBE188FB3EB0022E07C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>engineHeader</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500FBC188FB3EB0022E07C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>EUExBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500FBD188FB3EB0022E07C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>EUExBaseDefine.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500FBE188FB3EB0022E07C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>EUtility.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500FBF188FB3EB0022E07C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A500FC0188FB3EB0022E07C</string>
-				<string>5A500FC1188FB3EB0022E07C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>sourceCode</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500FC0188FB3EB0022E07C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Email.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500FC1188FB3EB0022E07C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Email.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A500FC2188FB3EB0022E07C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A500FC1188FB3EB0022E07C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>64AAB7AB05B682DA81FDFEEE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>name</key>
-			<string>uexEmail.bundle</string>
-			<key>path</key>
-			<string>uexEmail/uexEmail.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A0EDABF25B313C0862FFC05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E8C6A4F9404A221C7B0AC318</string>
-				<string>B3E7DA4A60705A300912CE7E</string>
-				<string>78134591AC294008662F5558</string>
-				<string>EC251BDD867C6661C0D64562</string>
-				<string>6FE1965686D7A7DC5E33833B</string>
-				<string>1B5402AF18340CE6CD85382F</string>
-				<string>250FAA17EE83869F9366C697</string>
-				<string>F02E288DCB42EAAD1258057B</string>
-				<string>7371DAAB86A39F6EE06B9FE3</string>
-				<string>A00D951AA2DA8DBE98F301CE</string>
-				<string>8321B3A82DCFAB38845C43EB</string>
-				<string>71EE64811CDD9141464D6799</string>
-				<string>BD6F9E4856CDE36BD2AD7E01</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>IDE-Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FE1965686D7A7DC5E33833B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CFNetWork.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CFNetWork.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>71EE64811CDD9141464D6799</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libsqlite3.tbd</string>
-			<key>path</key>
-			<string>usr/lib/libsqlite3.tbd</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>728545797CCC0BAF64316C80</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64AAB7AB05B682DA81FDFEEE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7371DAAB86A39F6EE06B9FE3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>78134591AC294008662F5558</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8321B3A82DCFAB38845C43EB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libstdc++.tbd</string>
-			<key>path</key>
-			<string>usr/lib/libstdc++.tbd</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>83D70D4BFDA73CA2C3FA74C3</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>info.plist</string>
-			<key>path</key>
-			<string>../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A00D951AA2DA8DBE98F301CE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libc++.tbd</string>
-			<key>path</key>
-			<string>usr/lib/libc++.tbd</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>A0EB589B18AB61F700F133BB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>EUExEmail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B3E7DA4A60705A300912CE7E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AudioToolbox.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/AudioToolbox.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>BA43C6493D63637B84C9C898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD6F9E4856CDE36BD2AD7E01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD6F9E4856CDE36BD2AD7E01</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libz.tbd</string>
-			<key>path</key>
-			<string>usr/lib/libz.tbd</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C0D578E69D2E461425A70160</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D06C205F359C82686CF4CDA2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D06C205F359C82686CF4CDA2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AppCanEngine.framework</string>
-			<key>path</key>
-			<string>../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/AppCanEngine.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D40BE0162F7F5598FA712EE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7371DAAB86A39F6EE06B9FE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6C8DFE215CF3BE7B3ECB9CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>78134591AC294008662F5558</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F13A278859DBC254F48F9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6FE1965686D7A7DC5E33833B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D8107AE2C8F641624E959A3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A00D951AA2DA8DBE98F301CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2C9CFDF2293ED51C4CA7CCC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E8C6A4F9404A221C7B0AC318</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E3B032673A787399C73A4170</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D06C205F359C82686CF4CDA2</string>
-				<string>83D70D4BFDA73CA2C3FA74C3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AppCanEngine</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8C6A4F9404A221C7B0AC318</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MapKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MapKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EC251BDD867C6661C0D64562</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>ImageIO.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/ImageIO.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EF690647E625D4597E1B3959</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B3E7DA4A60705A300912CE7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F02E288DCB42EAAD1258057B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FA1323B3D30F59EE5DC1A8FE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B5402AF18340CE6CD85382F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>5A500F8A188FB34B0022E07C</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198FACDD7C833557859003AB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8321B3A82DCFAB38845C43EB /* libstdc++.tbd */; };
+		2D27A16C6D98B640C2670ADD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EE64811CDD9141464D6799 /* libsqlite3.tbd */; };
+		3B96E90B0484F38F75D5728D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250FAA17EE83869F9366C697 /* UIKit.framework */; };
+		3C1C09B21BE0612C00571E72 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C09B41BE0612C00571E72 /* Localizable.strings */; };
+		47ABF585B26C08B7DD3D3814 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02E288DCB42EAAD1258057B /* CoreGraphics.framework */; };
+		52DFC3371BB1EB36CB125FF1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC251BDD867C6661C0D64562 /* ImageIO.framework */; };
+		5A500F96188FB34B0022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A500F95188FB34B0022E07C /* Foundation.framework */; };
+		5A500F9D188FB34B0022E07C /* EUExEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500F9C188FB34B0022E07C /* EUExEmail.m */; };
+		5A500FC2188FB3EB0022E07C /* Email.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500FC1188FB3EB0022E07C /* Email.m */; };
+		728545797CCC0BAF64316C80 /* uexEmail.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64AAB7AB05B682DA81FDFEEE /* uexEmail.bundle */; };
+		BA43C6493D63637B84C9C898 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6F9E4856CDE36BD2AD7E01 /* libz.tbd */; };
+		C0D578E69D2E461425A70160 /* AppCanEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06C205F359C82686CF4CDA2 /* AppCanEngine.framework */; };
+		D40BE0162F7F5598FA712EE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7371DAAB86A39F6EE06B9FE3 /* QuartzCore.framework */; };
+		D6C8DFE215CF3BE7B3ECB9CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78134591AC294008662F5558 /* SystemConfiguration.framework */; };
+		D6F13A278859DBC254F48F9E /* CFNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE1965686D7A7DC5E33833B /* CFNetWork.framework */; };
+		D8107AE2C8F641624E959A3A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A00D951AA2DA8DBE98F301CE /* libc++.tbd */; };
+		E2C9CFDF2293ED51C4CA7CCC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C6A4F9404A221C7B0AC318 /* MapKit.framework */; };
+		EF690647E625D4597E1B3959 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E7DA4A60705A300912CE7E /* AudioToolbox.framework */; };
+		FA1323B3D30F59EE5DC1A8FE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5402AF18340CE6CD85382F /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1AD57C1BD5F20D0091D2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A500F8A188FB34B0022E07C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1AD5751BD5F1B40091D2A1;
+			remoteInfo = uexEmailBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A500F90188FB34B0022E07C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B5402AF18340CE6CD85382F /* MobileCoreServices.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		250FAA17EE83869F9366C697 /* UIKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexEmail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1C09B31BE0612C00571E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C1C09B51BE0612D00571E72 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5A500F92188FB34B0022E07C /* uexEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = uexEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A500F95188FB34B0022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A500F99188FB34B0022E07C /* EUExEmail.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExEmail.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		5A500F9C188FB34B0022E07C /* EUExEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExEmail.m; sourceTree = "<group>"; };
+		5A500FA3188FB34B0022E07C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A500FA6188FB34B0022E07C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A500FBC188FB3EB0022E07C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		5A500FBD188FB3EB0022E07C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		5A500FBE188FB3EB0022E07C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		5A500FC0188FB3EB0022E07C /* Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Email.h; sourceTree = "<group>"; };
+		5A500FC1188FB3EB0022E07C /* Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Email.m; sourceTree = "<group>"; };
+		64AAB7AB05B682DA81FDFEEE /* uexEmail.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.cfbundle; name = uexEmail.bundle; path = uexEmail/uexEmail.bundle; sourceTree = "<group>"; };
+		6FE1965686D7A7DC5E33833B /* CFNetWork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetWork.framework; path = System/Library/Frameworks/CFNetWork.framework; sourceTree = SDKROOT; };
+		71EE64811CDD9141464D6799 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7371DAAB86A39F6EE06B9FE3 /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78134591AC294008662F5558 /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8321B3A82DCFAB38845C43EB /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		83D70D4BFDA73CA2C3FA74C3 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = info.plist; path = "../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist"; sourceTree = "<group>"; };
+		A00D951AA2DA8DBE98F301CE /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A0EB589B18AB61F700F133BB /* EUExEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExEmail.h; sourceTree = "<group>"; };
+		B3E7DA4A60705A300912CE7E /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD6F9E4856CDE36BD2AD7E01 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D06C205F359C82686CF4CDA2 /* AppCanEngine.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AppCanEngine.framework; path = "../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/AppCanEngine.framework"; sourceTree = "<group>"; };
+		E8C6A4F9404A221C7B0AC318 /* MapKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EC251BDD867C6661C0D64562 /* ImageIO.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F02E288DCB42EAAD1258057B /* CoreGraphics.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1AD5731BD5F1B40091D2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A500F8F188FB34B0022E07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A500F96188FB34B0022E07C /* Foundation.framework in Frameworks */,
+				E2C9CFDF2293ED51C4CA7CCC /* MapKit.framework in Frameworks */,
+				EF690647E625D4597E1B3959 /* AudioToolbox.framework in Frameworks */,
+				D6C8DFE215CF3BE7B3ECB9CF /* SystemConfiguration.framework in Frameworks */,
+				52DFC3371BB1EB36CB125FF1 /* ImageIO.framework in Frameworks */,
+				D6F13A278859DBC254F48F9E /* CFNetWork.framework in Frameworks */,
+				FA1323B3D30F59EE5DC1A8FE /* MobileCoreServices.framework in Frameworks */,
+				3B96E90B0484F38F75D5728D /* UIKit.framework in Frameworks */,
+				47ABF585B26C08B7DD3D3814 /* CoreGraphics.framework in Frameworks */,
+				D40BE0162F7F5598FA712EE4 /* QuartzCore.framework in Frameworks */,
+				D8107AE2C8F641624E959A3A /* libc++.tbd in Frameworks */,
+				198FACDD7C833557859003AB /* libstdc++.tbd in Frameworks */,
+				2D27A16C6D98B640C2670ADD /* libsqlite3.tbd in Frameworks */,
+				BA43C6493D63637B84C9C898 /* libz.tbd in Frameworks */,
+				C0D578E69D2E461425A70160 /* AppCanEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1AD5771BD5F1B40091D2A1 /* uexEmailBundle */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C09B41BE0612C00571E72 /* Localizable.strings */,
+			);
+			path = uexEmailBundle;
+			sourceTree = "<group>";
+		};
+		5A500F89188FB34B0022E07C = {
+			isa = PBXGroup;
+			children = (
+				5A500F97188FB34B0022E07C /* EUExEmail */,
+				3C1AD5771BD5F1B40091D2A1 /* uexEmailBundle */,
+				5A500F94188FB34B0022E07C /* Frameworks */,
+				5A500F93188FB34B0022E07C /* Products */,
+				6A0EDABF25B313C0862FFC05 /* IDE-Frameworks */,
+				E3B032673A787399C73A4170 /* AppCanEngine */,
+				64AAB7AB05B682DA81FDFEEE /* uexEmail.bundle */,
+			);
+			sourceTree = "<group>";
+		};
+		5A500F93188FB34B0022E07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A500F92188FB34B0022E07C /* uexEmail.framework */,
+				3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A500F94188FB34B0022E07C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A500F95188FB34B0022E07C /* Foundation.framework */,
+				5A500FA3188FB34B0022E07C /* XCTest.framework */,
+				5A500FA6188FB34B0022E07C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A500F97188FB34B0022E07C /* EUExEmail */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB589B18AB61F700F133BB /* EUExEmail.h */,
+				5A500FBB188FB3EB0022E07C /* engineHeader */,
+				5A500FBF188FB3EB0022E07C /* sourceCode */,
+				5A500F9C188FB34B0022E07C /* EUExEmail.m */,
+				5A500F98188FB34B0022E07C /* Supporting Files */,
+			);
+			name = EUExEmail;
+			path = EUExEMail;
+			sourceTree = "<group>";
+		};
+		5A500F98188FB34B0022E07C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A500F99188FB34B0022E07C /* EUExEmail.temp_caseinsensitive_rename-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A500FBB188FB3EB0022E07C /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5A500FBC188FB3EB0022E07C /* EUExBase.h */,
+				5A500FBD188FB3EB0022E07C /* EUExBaseDefine.h */,
+				5A500FBE188FB3EB0022E07C /* EUtility.h */,
+			);
+			path = engineHeader;
+			sourceTree = "<group>";
+		};
+		5A500FBF188FB3EB0022E07C /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				5A500FC0188FB3EB0022E07C /* Email.h */,
+				5A500FC1188FB3EB0022E07C /* Email.m */,
+			);
+			path = sourceCode;
+			sourceTree = "<group>";
+		};
+		6A0EDABF25B313C0862FFC05 /* IDE-Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C6A4F9404A221C7B0AC318 /* MapKit.framework */,
+				B3E7DA4A60705A300912CE7E /* AudioToolbox.framework */,
+				78134591AC294008662F5558 /* SystemConfiguration.framework */,
+				EC251BDD867C6661C0D64562 /* ImageIO.framework */,
+				6FE1965686D7A7DC5E33833B /* CFNetWork.framework */,
+				1B5402AF18340CE6CD85382F /* MobileCoreServices.framework */,
+				250FAA17EE83869F9366C697 /* UIKit.framework */,
+				F02E288DCB42EAAD1258057B /* CoreGraphics.framework */,
+				7371DAAB86A39F6EE06B9FE3 /* QuartzCore.framework */,
+				A00D951AA2DA8DBE98F301CE /* libc++.tbd */,
+				8321B3A82DCFAB38845C43EB /* libstdc++.tbd */,
+				71EE64811CDD9141464D6799 /* libsqlite3.tbd */,
+				BD6F9E4856CDE36BD2AD7E01 /* libz.tbd */,
+			);
+			path = "IDE-Frameworks";
+			sourceTree = "<group>";
+		};
+		E3B032673A787399C73A4170 /* AppCanEngine */ = {
+			isa = PBXGroup;
+			children = (
+				D06C205F359C82686CF4CDA2 /* AppCanEngine.framework */,
+				83D70D4BFDA73CA2C3FA74C3 /* info.plist */,
+			);
+			path = AppCanEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1AD5751BD5F1B40091D2A1 /* uexEmailBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1AD57B1BD5F1B40091D2A1 /* Build configuration list for PBXNativeTarget "uexEmailBundle" */;
+			buildPhases = (
+				3C1AD5721BD5F1B40091D2A1 /* Sources */,
+				3C1AD5731BD5F1B40091D2A1 /* Frameworks */,
+				3C1AD5741BD5F1B40091D2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uexEmailBundle;
+			productName = uexEmailBundle;
+			productReference = 3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5A500F91188FB34B0022E07C /* EUExEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A500FB5188FB34B0022E07C /* Build configuration list for PBXNativeTarget "EUExEmail" */;
+			buildPhases = (
+				5A500F8E188FB34B0022E07C /* Sources */,
+				5A500F8F188FB34B0022E07C /* Frameworks */,
+				5A500F90188FB34B0022E07C /* CopyFiles */,
+				132014F994DD42A781814863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1AD57D1BD5F20D0091D2A1 /* PBXTargetDependency */,
+			);
+			name = EUExEmail;
+			productName = EUExEMail;
+			productReference = 5A500F92188FB34B0022E07C /* uexEmail.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A500F8A188FB34B0022E07C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xll;
+				TargetAttributes = {
+					3C1AD5751BD5F1B40091D2A1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEmailIDE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 5A500F89188FB34B0022E07C;
+			productRefGroup = 5A500F93188FB34B0022E07C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A500F91188FB34B0022E07C /* EUExEmail */,
+				3C1AD5751BD5F1B40091D2A1 /* uexEmailBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132014F994DD42A781814863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728545797CCC0BAF64316C80 /* uexEmail.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1AD5741BD5F1B40091D2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C09B21BE0612C00571E72 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1AD5721BD5F1B40091D2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A500F8E188FB34B0022E07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A500FC2188FB3EB0022E07C /* Email.m in Sources */,
+				5A500F9D188FB34B0022E07C /* EUExEmail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C1AD57D1BD5F20D0091D2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1AD5751BD5F1B40091D2A1 /* uexEmailBundle */;
+			targetProxy = 3C1AD57C1BD5F20D0091D2A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C1C09B41BE0612C00571E72 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1C09B31BE0612C00571E72 /* en */,
+				3C1C09B51BE0612D00571E72 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C1AD5791BD5F1B40091D2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexEmail;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexEmailBundle;
+				PRODUCT_MODULE_NAME = uexEmail;
+				PRODUCT_NAME = uexEmail;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3C1AD57A1BD5F1B40091D2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexEmail;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexEmailBundle;
+				PRODUCT_MODULE_NAME = uexEmail;
+				PRODUCT_NAME = uexEmail;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5A500FB3188FB34B0022E07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A500FB4188FB34B0022E07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A500FB6188FB34B0022E07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_IDENTIFIER = com.appcan.ide;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Sea King Biological Technology Co., Ltd.";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexEmail/IDE/";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DSTROOT = /tmp/EUExEMail.dst;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource";
+				INFOPLIST_FILE = "$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path @loader_path/Frameworks @loader_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexEmail;
+				PROVISIONING_PROFILE = "756a3ff2-be53-4d08-862a-c050d0dfa3d9";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A500FB7188FB34B0022E07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_IDENTIFIER = com.appcan.ide;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Sea King Biological Technology Co., Ltd.";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexEmail/IDE/";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DSTROOT = /tmp/EUExEMail.dst;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource";
+				INFOPLIST_FILE = "$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path @loader_path/Frameworks @loader_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexEmail;
+				PROVISIONING_PROFILE = "756a3ff2-be53-4d08-862a-c050d0dfa3d9";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C1AD57B1BD5F1B40091D2A1 /* Build configuration list for PBXNativeTarget "uexEmailBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1AD5791BD5F1B40091D2A1 /* Debug */,
+				3C1AD57A1BD5F1B40091D2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A500F8D188FB34B0022E07C /* Build configuration list for PBXProject "EUExEmailIDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A500FB3188FB34B0022E07C /* Debug */,
+				5A500FB4188FB34B0022E07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A500FB5188FB34B0022E07C /* Build configuration list for PBXNativeTarget "EUExEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A500FB6188FB34B0022E07C /* Debug */,
+				5A500FB7188FB34B0022E07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A500F8A188FB34B0022E07C /* Project object */;
+}
