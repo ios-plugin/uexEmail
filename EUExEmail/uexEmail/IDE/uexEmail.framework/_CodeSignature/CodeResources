@@ -6,26 +6,26 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		oUEwCZBCEM7SiHghN/jJOjywWCI=
+		7DTojq6ORnp/yYUytJsW0wyWSac=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		JKbXoT98W7zj86Z2W3qbeHZe/kE=
+		VccYRc8+LJpEK2ajGtgIir/pOpk=
 		</data>
-		<key>uexEmail.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
+		<key>uexEmail.bundle/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/hb68aaer/sjS8TWduAhEalOq8s=
+			F8U4co6i8R/aDOF4/IlwhYOnUAk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>uexEmail.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings</key>
+		<key>uexEmail.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dFfSF4UnasIL7/+mlFH4WSGrPkU=
+			oRZTPl9zyynL7bUGZ7dyoHNwiM4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -34,23 +34,38 @@
 	<key>files2</key>
 	<dict>
 		<key>embedded.mobileprovision</key>
-		<data>
-		JKbXoT98W7zj86Z2W3qbeHZe/kE=
-		</data>
-		<key>uexEmail.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/hb68aaer/sjS8TWduAhEalOq8s=
+			VccYRc8+LJpEK2ajGtgIir/pOpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ejCBtnGtWqhlrYI4GRjoMJxaexgdSnhjWGPR+Vc9frw=
+			</data>
+		</dict>
+		<key>uexEmail.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F8U4co6i8R/aDOF4/IlwhYOnUAk=
+			</data>
+			<key>hash2</key>
+			<data>
+			bZPzC98yA3ntK/sP1JEyxRy1747KCpX6CpCdrg/KyD8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>uexEmail.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings</key>
+		<key>uexEmail.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dFfSF4UnasIL7/+mlFH4WSGrPkU=
+			oRZTPl9zyynL7bUGZ7dyoHNwiM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			FqJpN5WtigOMkpS5zi50U2PwM39sZkDFom+FJ9kiN6k=
 			</data>
 			<key>optional</key>
 			<true/>
