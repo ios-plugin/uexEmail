@@ -76,14 +76,15 @@
 	//	[picker setBccRecipients:bccRecipients];
     
     NSString *attachPath =[dict objectForKey:@"attachment"];
-    if ([attachPath isKindOfClass:[NSString class]] && attachPath.length>0) {
+    NSString *mimeType = [dict objectForKey:@"mimeType"];
+    if ([attachPath isKindOfClass:[NSString class]] && attachPath.length>0 && mimeType &&mimeType.length >0) {
         NSArray *attachPath_ary = [attachPath componentsSeparatedByString:@","];
         for (int i=0; i<[attachPath_ary count]; i++) {
             NSString *str = [euexObj absPath:[attachPath_ary objectAtIndex:i]];
             if ([[NSFileManager defaultManager] fileExistsAtPath:str]) {
                 NSData *myData = [NSData dataWithContentsOfFile:str];
                 if (myData && [myData length]>0) {
-                    [picker addAttachmentData:myData mimeType:nil fileName:[str lastPathComponent]];
+                    [picker addAttachmentData:myData mimeType:mimeType fileName:[str lastPathComponent]];
                 }
             }
         }
@@ -94,14 +95,13 @@
 		[dateFormatter setDateFormat:@"yyyy/MM/dd"];
 		NSDate *date=[[NSDate alloc] init];
 		NSString *content=[[NSString alloc]
-						   initWithFormat:@"Date:%@\r\n%@",[dateFormatter stringFromDate:date],inContent];
+                        initWithFormat:@"Date:%@\r\n%@",[dateFormatter stringFromDate:date],inContent];
 		NSString *sendContent = [content stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-		[date release];
-		[dateFormatter release];
 		[picker setMessageBody:sendContent isHTML:NO];
-		[content release];
+		
 	}
-    [EUtility brwView:euexObj.meBrwView presentModalViewController:picker animated:YES];
+    
+    [[euexObj.webViewEngine viewController] presentViewController:picker animated:YES completion:nil];
 }
 -(void)launchMailAppOnDevice{
 	NSString *recipients = [NSString stringWithFormat:@"mailto:%@&subject=%@",[dict objectForKey:@"receiver"],[dict objectForKey:@"suject"]];
@@ -112,7 +112,6 @@
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];
 }
 -(void)dealloc{
-	[picker release];
-	[super dealloc];
+	
 }
 @end

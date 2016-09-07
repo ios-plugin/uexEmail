@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A179DE1D61BFBE00E86E68 /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A179DD1D61BFBE00E86E68 /* AppCanKit.framework */; };
 		3C1C09B21BE0612C00571E72 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C09B41BE0612C00571E72 /* Localizable.strings */; };
 		5A500F96188FB34B0022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A500F95188FB34B0022E07C /* Foundation.framework */; };
 		5A500F9D188FB34B0022E07C /* EUExEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A500F9C188FB34B0022E07C /* EUExEmail.m */; };
@@ -36,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21A179DD1D61BFBE00E86E68 /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
 		3C1AD5761BD5F1B40091D2A1 /* uexEmail.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexEmail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1C09B31BE0612C00571E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3C1C09B51BE0612D00571E72 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -45,7 +47,6 @@
 		5A500F9C188FB34B0022E07C /* EUExEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExEmail.m; sourceTree = "<group>"; };
 		5A500FA3188FB34B0022E07C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5A500FA6188FB34B0022E07C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5A500FBC188FB3EB0022E07C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		5A500FBD188FB3EB0022E07C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		5A500FBE188FB3EB0022E07C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		5A500FC0188FB3EB0022E07C /* Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Email.h; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A179DE1D61BFBE00E86E68 /* AppCanKit.framework in Frameworks */,
 				5A500F96188FB34B0022E07C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,7 +135,6 @@
 		5A500FBB188FB3EB0022E07C /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
-				5A500FBC188FB3EB0022E07C /* EUExBase.h */,
 				5A500FBD188FB3EB0022E07C /* EUExBaseDefine.h */,
 				5A500FBE188FB3EB0022E07C /* EUtility.h */,
 			);
@@ -143,6 +144,7 @@
 		5A500FBF188FB3EB0022E07C /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				21A179DD1D61BFBE00E86E68 /* AppCanKit.framework */,
 				5A500FC0188FB3EB0022E07C /* Email.h */,
 				5A500FC1188FB3EB0022E07C /* Email.m */,
 			);
@@ -397,8 +399,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexEMail/";
 				DSTROOT = /tmp/EUExEMail.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExEMail/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -411,8 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexEMail/";
 				DSTROOT = /tmp/EUExEMail.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExEMail/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExEMail/EUExEmail.temp_caseinsensitive_rename-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
