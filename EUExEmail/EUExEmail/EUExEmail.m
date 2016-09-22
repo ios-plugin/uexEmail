@@ -20,27 +20,18 @@
 }
 
 -(void)dealloc{
-    if (mailObj) {
-        [mailObj release];
-        mailObj = nil;
-    }
-	[super dealloc];
+    mailObj = nil;
+
 }
 
 - (void)open:(NSMutableArray *)inArguments {
-    
     if ([inArguments count] < 2) {
         return;
     }
-    
 	NSString * inReceiverEmail = [inArguments objectAtIndex:0];
-    
 	NSString * inSubject = [inArguments objectAtIndex:1];
-    
     NSString * inContent = [inArguments count] > 2 ? [inArguments objectAtIndex:2] : @"";
-    
     NSString * inAttachmentPath = [inArguments count] > 3 ?[inArguments objectAtIndex:3] : @"";
-    
 	//跳转到发邮件应用，不能返回
 	//[[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"mailto://%@",inReceiverEmail]]];
     //启动一个邮件发送界面，可以返回
@@ -57,23 +48,15 @@
 	[dict setObject:inAttachmentPath forKey:@"attachment"];
     
 	if (!mailObj) {
-        
 		mailObj = [[Email alloc] init];
-        
-	}
-    
+    }
 	[mailObj openMailWithUExObj:self argDict:dict];
-    
-	[dict removeAllObjects];
-    
-	[dict release];
-    
 }
 
--(void)clean{
-	if (mailObj) {
-		[mailObj release];
-		mailObj = nil;
-	}
+    
+    
+    
+- (void)clean{
+    mailObj = nil;
 }
 @end

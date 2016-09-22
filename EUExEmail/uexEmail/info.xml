@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
-  <plugin uexName="uexEmail" version="3.0.7" build="7">
-    <info>7: IDE证书更新</info>
+  <plugin uexName="uexEmail" version="3.4.8" build="8">
+    <info>8: 支持iOS10</info>
+    <build>7: IDE证书更新</build>
     <build>6: 添加IDE支持</build>
     <build>5: 删除info.plist</build>
     <build>4: 添加国际化支持</build>

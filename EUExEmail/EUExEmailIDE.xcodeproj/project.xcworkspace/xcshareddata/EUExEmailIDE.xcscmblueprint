@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1D4E185F6365565028ED5C053C768572480715D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "74DD8384E8D4CD102FDA6AB1AFF33BEDEBDE524A" : 9223372036854775807,
+    "1D4E185F6365565028ED5C053C768572480715D2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31C4E186-9E62-48FB-984B-0CCF715108B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "74DD8384E8D4CD102FDA6AB1AFF33BEDEBDE524A" : "AppCanPluginTools-iOS\/",
+    "1D4E185F6365565028ED5C053C768572480715D2" : "uexEmail\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EUExEmailIDE",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EUExEmail\/EUExEmailIDE.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ios-plugin\/uexEmail.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D4E185F6365565028ED5C053C768572480715D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/connyliu\/AppCanPluginTools-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "74DD8384E8D4CD102FDA6AB1AFF33BEDEBDE524A"
+    }
+  ]
+}

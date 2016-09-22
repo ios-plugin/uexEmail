@@ -9,7 +9,7 @@
 #import "Email.h"
 #import "EUExEMail.h"
 #import "EUtility.h"
-
+#import <MobileCoreServices/MobileCoreServices.h>
 @implementation Email
 
 -(void)openMailWithUExObj:(EUExEmail *)euexObj_ argDict:(NSMutableDictionary *)inArgDict{
@@ -51,7 +51,7 @@
 			//	message.text = @"Result: not sent";
 			break;
 	}
-	[controller_ dismissModalViewControllerAnimated:YES];
+	[controller_ dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)displayComposerSheet
@@ -83,7 +83,10 @@
             if ([[NSFileManager defaultManager] fileExistsAtPath:str]) {
                 NSData *myData = [NSData dataWithContentsOfFile:str];
                 if (myData && [myData length]>0) {
-                    [picker addAttachmentData:myData mimeType:nil fileName:[str lastPathComponent]];
+                    NSString *fileExtension = [str pathExtension];
+                    NSString *UTI = (__bridge NSString *)UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, (__bridge CFStringRef)fileExtension, NULL);
+                    NSString *mimeType = (__bridge NSString *)UTTypeCopyPreferredTagWithClass((__bridge CFStringRef)UTI, kUTTagClassMIMEType);
+                    [picker addAttachmentData:myData mimeType:mimeType?:@"application/octet-stream" fileName:[str lastPathComponent]];
                 }
             }
         }
@@ -93,13 +96,10 @@
 		NSDateFormatter *dateFormatter=[[NSDateFormatter alloc] init];
 		[dateFormatter setDateFormat:@"yyyy/MM/dd"];
 		NSDate *date=[[NSDate alloc] init];
-		NSString *content=[[NSString alloc]
-						   initWithFormat:@"Date:%@\r\n%@",[dateFormatter stringFromDate:date],inContent];
+		NSString *content=[[NSString alloc] initWithFormat:@"Date:%@\r\n%@",[dateFormatter stringFromDate:date],inContent];
 		NSString *sendContent = [content stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-		[date release];
-		[dateFormatter release];
 		[picker setMessageBody:sendContent isHTML:NO];
-		[content release];
+
 	}
     [EUtility brwView:euexObj.meBrwView presentModalViewController:picker animated:YES];
 }
@@ -112,7 +112,5 @@
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];
 }
 -(void)dealloc{
-	[picker release];
-	[super dealloc];
 }
 @end
