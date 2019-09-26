@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <MessageUI/MessageUI.h>
 
+#define IS_NSString(x) ([x isKindOfClass:[NSString class]] && x.length>0)
+
 @class EUExEmail;
 @interface Email : NSObject <MFMailComposeViewControllerDelegate>{
 	EUExEmail *euexObj;

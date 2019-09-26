@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
-  <plugin uexName="uexEmail" version="4.0.0" build="0">
-    <info>0: 邮件功能插件</info>
+  <plugin uexName="uexEmail" version="4.0.1" build="2019092601">
+    <info>1: 修复发送邮件时收件人为null的问题</info>
+    <build>0: 邮件功能插件</build>
   </plugin>
 </uexplugins>

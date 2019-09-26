@@ -10,6 +10,7 @@
 #import "EUExEMail.h"
 #import "EUtility.h"
 #import <MobileCoreServices/MobileCoreServices.h>
+
 @implementation Email
 
 -(void)openMailWithUExObj:(EUExEmail *)euexObj_ argDict:(NSMutableDictionary *)inArgDict{
@@ -78,13 +79,31 @@
     [[euexObj.webViewEngine viewController] presentViewController:picker animated:YES completion:nil];
 
 }
+
 -(void)launchMailAppOnDevice{
-    NSString *recipients = [NSString stringWithFormat:@"mailto:%@&subject=%@",[dict objectForKey:@"receiver"],[dict objectForKey:@"suject"]];
-    NSString *body = [NSString stringWithFormat:@"&body=%@",[dict objectForKey:@"content"]];
-    NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
+    NSString *receiver = [dict objectForKey:@"receiver"];
+    NSString *subject = [dict objectForKey:@"subject"];
+    NSString *content = [dict objectForKey:@"content"];
+    NSString *email = [NSString stringWithFormat:@"mailto:%@", receiver];
+    if (IS_NSString(subject) || IS_NSString(content)) {
+        // 传入的参数中有任何参数不为空，则认为后面有参数，需要先拼个问号
+        email = [NSString stringWithFormat:@"%@?",email];
+        if (IS_NSString(subject)) {
+            email = [NSString stringWithFormat:@"%@subject=%@&", email, subject];
+        }
+        if (IS_NSString(content)) {
+            email = [NSString stringWithFormat:@"%@body=%@&", email, content];
+        }
+        // 参数之间都有&，结尾的无用可以去掉
+        if ([email hasSuffix:@"&"]) {
+            email = [email substringToIndex:[email length]-1];
+        }
+    }
     email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];
+    NSURL *emailURL = [NSURL URLWithString:email];
+//    [[UIApplication sharedApplication] openURL:emailURL];
+    NSLog(@"uexEmail===>open emailURL: %@", emailURL);
+    [[UIApplication sharedApplication] openURL:emailURL options:@{} completionHandler:nil];
 }
 
 @end
